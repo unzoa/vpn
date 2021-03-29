@@ -1,0 +1,47 @@
+{
+  "random": false,
+  "authPass": null,
+  "useOnlinePac": false,
+  "TTL": 0,
+  "global": false,
+  "reconnectTimes": 3,
+  "index": 0,
+  "proxyType": 0,
+  "proxyHost": null,
+  "authUser": null,
+  "proxyAuthPass": null,
+  "isDefault": false,
+  "pacUrl": null,
+  "configs": [
+    {
+      "enable": true,
+      "password": "dongtaiwang.com 123abc",
+      "method": "rc4",
+      "remarks": "节点1-德国",
+      "server": "89.163.224.142",
+      "obfs": "plain",
+      "protocol": "origin",
+      "server_port": 25016,
+      "remarks_base64": 7
+    },
+    {
+      "enable": true,
+      "password": "dongtaiwang.com 123abc",
+      "method": "rc4",
+      "remarks": "节点2-西雅图",
+      "server": "173.0.55.67",
+      "obfs": "plain",
+      "protocol": "origin",
+      "server_port": 37801,
+      "remarks_base64": 15
+    }
+  ],
+  "proxyPort": 0,
+  "randomAlgorithm": 0,
+  "proxyEnable": false,
+  "enabled": true,
+  "autoban": false,
+  "proxyAuthUser": null,
+  "shareOverLan": false,
+  "localPort": 1080
+}
