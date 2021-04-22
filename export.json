@@ -15,25 +15,69 @@
   "configs": [
     {
       "enable": true,
-      "password": "dongtaiwang.com 123abc",
-      "method": "rc4",
-      "remarks": "节点1-德国",
-      "server": "89.163.224.142",
+      "password": "tuidang.org",
+      "method": "chacha20",
+      "remarks": "洛杉矶",
+      "server": "lg2.free3333.xyz",
       "obfs": "plain",
       "protocol": "origin",
-      "server_port": 25016,
+      "server_port": 443,
       "remarks_base64": 7
+    },
+    {
+      "enable": true,
+      "password": "dongtaiwang.com",
+      "method": "none",
+      "remarks": "莫斯科",
+      "server": "ssr11.free3333.xyz",
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_chain_a",
+      "server_port": 443,
+      "remarks_base64": 15
+    },
+    {
+      "enable": true,
+      "password": "tuidang.org",
+      "method": "rc4",
+      "remarks": "洛杉矶",
+      "server": "45.66.156.190",
+      "obfs": "plain",
+      "protocol": "origin",
+      "server_port": 12001,
+      "remarks_base64": 23
+    },
+    {
+      "enable": true,
+      "password": "tuidang.org",
+      "method": "none",
+      "remarks": "日本",
+      "server": "ssr-jp1.free3333.xyz",
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_chain_a",
+      "server_port": 443,
+      "remarks_base64": 31
     },
     {
       "enable": true,
       "password": "dongtaiwang.com 123abc",
       "method": "rc4",
-      "remarks": "节点2-西雅图",
+      "remarks": "德国",
+      "server": "89.163.224.142",
+      "obfs": "plain",
+      "protocol": "origin",
+      "server_port": 40121,
+      "remarks_base64": 39
+    },
+    {
+      "enable": true,
+      "password": "dongtaiwang.com 123abc",
+      "method": "rc4",
+      "remarks": "西雅图",
       "server": "173.0.55.67",
       "obfs": "plain",
       "protocol": "origin",
-      "server_port": 37801,
-      "remarks_base64": 15
+      "server_port": 13011,
+      "remarks_base64": 47
     }
   ],
   "proxyPort": 0,
