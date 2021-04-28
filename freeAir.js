@@ -2,12 +2,11 @@ const JSON5 = require('json5')
 const rewrite = require('./lib/rewrite.js')
 
 const str = `
-节点1-洛杉矶：la2.free3333.xyz 端口：443 密码： tuidang.org 加密方式：chacha20 协议：origin 混淆：plain
+节点1-洛杉矶：ssr103.free3333.xyz 端口：443 密码： dongtaiwang.com 加密方式：none 协议：auth_chain_a 混淆：tls1.2_ticket_auth
 节点2-莫斯科：ssr11.free3333.xyz 端口：443 密码： dongtaiwang.com 加密方式：none 协议：auth_chain_a 混淆：tls1.2_ticket_auth
-节点3-洛杉矶：45.66.156.190 端口：12001 密码： tuidang.org 加密方式：rc4 协议：origin 混淆：plain
-节点4-日本：ssr-jp1.free3333.xyz 端口：443 密码： tuidang.org 加密方式：none 协议：auth_chain_a 混淆：tls1.2_ticket_auth
-节点5-德国：89.163.224.142 端口：40121 密码： dongtaiwang.com 123abc 加密方式：rc4 协议：origin 混淆：plain
-节点6-西雅图：173.0.55.67 端口：13011 密码： dongtaiwang.com 123abc 加密方式：rc4 协议：origin 混淆：plain
+节点3-日本：ssr-jp1.free3333.xyz 端口：443 密码： tuidang.org 加密方式：none 协议：auth_chain_a 混淆：tls1.2_ticket_auth
+节点4-德国：89.163.224.142 端口：40121 密码： dongtaiwang.com 123abc 加密方式：rc4 协议：origin 混淆：plain
+节点5-西雅图：173.0.55.67 端口：13011 密码： dongtaiwang.com 123abc 加密方式：rc4 协议：origin 混淆：plain
 `
 
 let haha = []
