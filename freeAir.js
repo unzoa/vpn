@@ -2,10 +2,10 @@ const JSON5 = require('json5')
 const rewrite = require('./lib/rewrite.js')
 
 const str = `
-节点1-洛杉矶：ssr113.free3333.xyz 端口：443 密码： dongtaiwang.com 加密方式：none 协议：auth_chain_a 混淆：tls1.2_ticket_auth
+节点1-洛杉矶：ssr128.free3333.xyz 端口：443 密码： dongtaiwang.com 加密方式：none 协议：auth_chain_a 混淆：tls1.2_ticket_auth
 节点2-莫斯科：ssr111.free3333.xyz 端口：443 密码： dongtaiwang.com 加密方式：none 协议：auth_chain_a 混淆：tls1.2_ticket_auth
-节点3-德国：89.163.224.142 端口：40121 密码： dongtaiwang.com 123abc 加密方式：rc4 协议：origin 混淆：plain
-节点4-西雅图：173.0.55.67 端口：13011 密码： dongtaiwang.com 123abc 加密方式：rc4 协议：origin 混淆：plain
+节点3-德国：89.163.224.142 端口：11208 密码： dongtaiwang.com 123abc 加密方式：rc4 协议：origin 混淆：plain
+节点4-西雅图：173.0.55.68 端口：22003 密码： dongtaiwang.com 123abc 加密方式：rc4 协议：origin 混淆：plain
 `
 
 let haha = []
